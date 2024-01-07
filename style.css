@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-image: url('image/banner1.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-color: lightgray ;
+    position: relative;
+    /* padding: 200px; */
+}
+.right-side{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    text-align: right;
+    width: 500px;
+}
+.right-side h1{
+    font-size: 50px;
+    padding: 10px;
+    font-weight: 700;
+}
+.right-side p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 10px 10px;
+}
+.right-side button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    /* font-weight: 600; */
+    background: #F15B22;
+    margin-right: 10px;
+}
+
+
+/* main style start */
+
+
+.my-flours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+ 
+}
+
+
+.list{
+    width: 400px;
+    padding: 10px;
+}
+.my-flours h1{
+    font-size: 35px;
+}
+.list p,ul{
+    line-height: 1.9;
+    /* padding: 10px; */
+    margin-top: 20px;
+}
+.list ul{
+    padding: 5px 15px;
+}
+.plans{
+    padding: 50px 300px;
+    text-align: center;
+}
+.my-plans{
+ display: flex;
+ justify-content: space-between;
+ padding: 50px 0px;
+}
+.my-plans p{
+    color: gray;
+}
+.watch{
+    padding:50px 300px;
+}
+.bannar{
+    background-image: url('image/watch.png');
+    width: 950px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+}
+.bg{
+    background-image: url('image/gradient2.png');
+    height: 100%;
+    padding: 100px 100px;
+}
+.bg h1{
+    font-size: 40px;
+    width: 70%;
+}
+.bg button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    background: #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+footer{
+    background-color: #151414;
+    padding: 100px 200px;
+    color: white;
+    display: flex;
+  gap: 200px;
+}
+.future,.subscribe{
+    width: 50%;
+}
+.future h1,p{
+    line-height: 1.8;
+    padding-top: 10px;
+    text-decoration: none;
+}
+p>a{
+    text-decoration: none;
+    color:#fff;
+ }
+ a:hover{
+    color:royalblue;
+    text-decoration: underline;
+ }
+.future img{
+   margin-right: 20px;
+   margin-top: 20px;
+}
+.subscribe h1{
+    font-size: 20px;
+    padding: 15px;
+}
+.subscribe input{
+    display: block;
+    margin-top: 10px;
+    padding:15px 20px;
+    background:none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70%;
+}
+.subscribe button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    background: #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
